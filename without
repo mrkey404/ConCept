@@ -3,6 +3,7 @@ read -p "target: " rk
 ping $rk
 read -p "Lagi?[Y/n] " rk1
 if [ $rk1 = Y ]
+then
 ./without
 else
 ./concept
