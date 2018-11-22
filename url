@@ -1,0 +1,10 @@
+#ZGANS
+read -p "url: " gl
+link $gl
+read -p "Lagi?[Y/n] " f
+if [ $f = Y ]
+then
+./url
+else
+./concept
+fi

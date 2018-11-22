@@ -1,0 +1,26 @@
+#ZGANS
+echo -e "\033[31;1m
+     _         _           _     
+ ___|_|___ ___| |_ ___ ___| |___ 
+| . | |   | . |  _| . | . | |_ -|
+|  _|_|_|_|_  |_| |___|___|_|___|
+|_|       |___|   \033[37;1mPingTools"
+date
+echo -e "[\033[31;1m1\033[37;1m]with packet"
+echo -e "[\033[31;1m2\033[37;1m]without packet"
+echo -e "[\033[31;1m3\033[37;1m]back"
+read -p "choose: " rk
+if [ $rk = 1 ]
+then
+./packet
+fi
+
+if [ $rk = 2 ]
+then
+./without
+fi
+
+if [ $rk = 3 ]
+then
+./concept
+fi

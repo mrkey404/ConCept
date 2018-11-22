@@ -1,0 +1,11 @@
+echo "NB: pakai simbol + untuk spasi"
+echo "EX: cara+install+kali+linux"
+read -p "text: " gl
+link http://google.com/search?q=$gl
+read -p "Lagi?[Y/n] " f
+if [ $f = Y ]
+then
+./google
+else
+./concept
+fi

@@ -1,0 +1,10 @@
+read -p "size: " rk1
+read -p "target: " rk2
+ping -s $rk1 $rk2
+read -p "Lagi?[Y/n] " rk3
+if [ $rk3 = Y ]
+then
+./packet
+else
+./concept
+fi
